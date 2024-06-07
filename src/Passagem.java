@@ -7,7 +7,7 @@ Máquina que imprime tickets.
 
 public class Passagem {
     public static double cobranca(Local lugar, boolean eAdulto, int numPassagens) {
-        double cobrancaBasica = 0.0, cobrancaTotal = 0.0;
+        double cobrancaBasica = 0.0, cobrancaTotal;
         switch (lugar) {
             case CURITIBA:
                 cobrancaBasica = 35.9;
